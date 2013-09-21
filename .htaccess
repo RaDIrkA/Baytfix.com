@@ -1,0 +1,17 @@
+AddType add/x-component PIE.htc
+
+
+# Google Analytics Integration - Added by cPanel.
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|(<script src='/google_analytics_auto.js'></script>)?</head>|<script src='/google_analytics_auto.js'></script></head>|i"
+</IfModule>
+# END Google Analytics Integration
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^index.html.*$ http://test2.baytfix.com/full [R=301,L]
+
+
+
+

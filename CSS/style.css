@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+body {	line-height: 1; min-width:940px; background-image:url(../Photo/bg.JPG); -webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust:100px;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';	content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+#container {border: 1px solid #999; width:800px; height:700px; margin:0 auto; position:relative;
+    -webkit-border-radius:35px 35px 25px 25px; -webkit-box-shadow:11px 28px 30px #000; -moz-box-shadow:11px 28px 30px #000;
+    -moz-border-radius:35px 35px 25px 25px; box-shadow:11px 28px 30px #000;
+    border-radius:35px 35px 25px 25px; background:#FFF; display:block;
+	behavior:url(../pie/PIE.htc); top:30px;}
+#head {	border: 3px solid none; width:800px; height:180px;  margin:0 auto; position:relative; 
+	-webkit-border-radius: 15px; -webkit-box-shadow:7px 9px 19px #000; -moz-box-shadow:7px 9px 19px #000;
+    -moz-border-radius: 15px; box-shadow:7px 9px 19px #000; 
+    border-radius: 15px; background:#09F;behavior:url(../pie/PIE.htc); top:10px;}
+#logo {	width:80px; height:80px; position:relative; right:-42%; top:-70px;-moz-transform:rotate(13deg);-o-transform:rotate(13deg);
+     -webkit-transform:rotate(13deg);transform:rotate(13deg);
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9743700647852351, M12=-0.22495105434386534, M21=0.22495105434386534, M22=0.9743700647852351, SizingMethod='auto expand')";filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=0.9743700647852351,
+            M12=-0.22495105434386534,
+            M21=0.22495105434386534,
+            M22=0.9743700647852351,
+            SizingMethod='auto expand');}
+#logo {-webkit-box-shadow: 0 15px 10px -6px black;-moz-box-shadow: 0 15px 10px -6px black;box-shadow: 0 15px 10px -6px black;
+		behavior:url(../pie/PIE.htc);}
+#menu {	width:270px; height:170px; margin:0 auto; position:relative; float:left;}
+  	/*Start menu navigator*/
+.nav ul {list-style-type:none; -moz-border-radius:25px 15px;-webkit- border-radius:25px 15px; border-radius:25px 15px; -moz-box-shadow:		8px 6px 7px #000000; -webkit-box-shadow:8px 6px 7px #000000;box-shadow:8px 6px 7px #000000;background:#09F; 
+		width:250px; padding:5px 5px;}
+.nav li a {
+	display:inline; padding:0 9px; color:#fff; text-decoration:none; font-weight:bold; text-transform:uppercase;
+	letter-spacing:0.2em; letter-spacing:0.3em; line-height:2.4em; height:9em; border-bottom:1px solid #383838;	}
+.nav li:last-child a {border-bottom:none;}
+.nav li a:hover,
+.nav li a:focus {color:#1c1c1c; background:#ccc; -webkit-border-radius:12px; -moz-border-radius:12px; -o-border-radius:12px; border-radius:12px; behavior:url(../pie/PIE.htc); }
+#active a { color:#000;pointer-events:none; }
+#active a:hover { background:none; cursor:default;}
+#active1 a:active {  background:#ccc; color:#09C;-webkit-box-shadow:14px 13px 9px #000; 
+	-moz-box-shadow:14px 13px 9px #000; -o-box-shadow:14px 13px 9px #000;  
+	box-shadow:14px 13px 9px #000; behavior: url(../pie/PIE.htc);}	
+ 	/*End menu navigator*/
+	/*Start social*/
+#social {border-bottom:2px solid #000; width:800px; position:relative; top:60px;}	
+#fb {position:relative; padding:1px; right:-89%; top:-50px; width:40px; height:40px;}
+#social #follow {font-family:"belligerent"; font-size:18px; position:relative; right:-90%; top:-50px;}	
+#fb:hover {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);-moz-opacity: 0.6;-khtml-opacity: 0.6;opacity: 0.6;}
+		/*End social*/
+		/*Index contact us */
+.class {border-top:0.1px solid  none; width:800px;position:relative;top:5%; }
+#class {border:2px solid none; width:176px; height:35px;top:-16px; position:relative; background-color:#09F;-webkit-border-radius:0 0 40px 0;-moz-border-radius:0 0 40px 0;-o-border-radius:0 0 40px 0;border-radius:0 0 40px 0;behavior: url(../pie/PIE.htc);}
+#class:hover{background-color:#FFF;}
+#class a {text-decoration:none; position:relative; font-size:30px; right:-7%;color:#FFF;font-family:"belligerent";}
+#class a:hover{color:#09F;}
+#emaillog {border:1px solid none; position:relative; width:200px; height:50px; background-color:#09F;float:right;top:-51px;-webkit-border-radius:0 0 0 40px;-moz-border-radius:0 0 0 40px;-o-border-radius:0 0 0 40px; border-radius:0 0 0 40px;behavior: url(../pie/PIE.htc);}
+#emaillog a {text-decoration:none; font-size:23px;font-family:"belligerent"; right:-60px;top:5px; position:relative; letter-spacing:3px;color:#000;}
+#emaillog a:hover {color:#FFF;}
+#emaillog h1 {position:relative; right:-20px;top:70px;font-family:"ArchitectsDaughter";font-size:11px; }
+		/*Index contact us */
+		/* start footer*/
+#footer {border-top: 2px solid  #000; width:800px; height:50px; margin:0 auto; position:relative;top:-80px;display:block;}
+ 	/*end footer*/
+	/*start social footer*/ /*Desni social icon*/
+#social2 {border: 3px solid none; width:200px; height:80px; position:relative; top:12px; float:right;}
+#footer p { color:#999; font-weight:bold; font-family:Arial, Helvetica, sans-serif; letter-spacing:3px; font-size:10px; position:absolute;
+top:90px; right:30%;}
+.social:hover { cursor: pointer;
+	opacity:0.6;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+-moz-opacity: 0.6;
+-khtml-opacity: 0.6; box-shadow:1px 1px 1px 1px #000;} 
+.social:active{opacity:0.9;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+filter: alpha(opacity=90);
+-moz-opacity: 0.9;
+-khtml-opacity: 0.9;}    /*End Desni social icon*/
+						/*Levi social Icon*/
+.social2 { position:relative; top:-25px; display:inline; margin:12px; width:17px; height:17px;opacity: 0.6;
+-moz-opacity: 0.6;-khtml-opacity: 0.6;}
+.social22 { position:relative; top:-8px; display:inline; margin:12px; width:17px; height:17px;opacity: 0.6;
+-moz-opacity: 0.6;-khtml-opacity: 0.6;}
+.social2:hover {opacity: 1;-moz-opacity: 1;-khtml-opacity: 1;;cursor:pointer;}
+.social22:hover { opacity: 1;-moz-opacity: 1;-khtml-opacity: 1;; cursor:pointer;}
+							/*konec levi icon*/
+.email { position:relative; width:45px; height:40px;top:-20px; right:-12%; }
+.email1 { position:relative; width:45px; height:40px;top:-4px; right:-12%; }
+	/*end social footer*/
+	/*Hidden / popup div*/
+div#hidden {width:70px; padding:10; background:#09F; float:right; position:relative;}
+#hidden p a {display:block; text-decoration:none; }
+div#popup {display:none; z-index:1;position:relative; width:150px; padding:15px; background:#000; color:#FFF; border:1px solid #1a1a1a; font-size:15px;font-size:14px; letter-spacing:1px;font-family:"belligerent"; -webkit-border-radius:20px 20px 2px 5px; -moz-border-radius:20px 20px 2px 5px; -o-border-radius:20px 20px 2px 5px; -ms-border-radius:20px 20px 2px 5px;border-radius:20px 20px 2px 5px; behavior:url(../pie/PIE.htc); }
+#popup p{float:right; font-family:"belligerent";}
+#popup h1{ top:-9px;}
+#hidden .hiddenp a {font-size:16px; left:10px; font-family:"belligerent"; margin:0 auto;color:#000;}
+#hidden .hiddenp {font-size:17px; left:10px; font-family:"belligerent"; margin:0 auto;color:#F00;}
+		/*End hidden / popup div*/
+	           /*Contact FORM START*/
+.okvir {
+    background-color:#09F;-moz-border-radius:30px 39px;-ms-border-radius:30px 39px;-o-border-radius:30px 39px;-webkit-border-radius:30px 39px;border-radius:35px 35px 0 0; position:relative;width:800px; height:590px; border-color:#CCC;behavior:url(../pie/PIE.htc); }
+.us {color:#FFF;letter-spacing:5px; font-weight:bolder; font-size:33px; position:relative; right:-35%; text-shadow:3px 4px 2px #000; }
+.submit { font-size:26px; font-family:"belligerent";  position:relative; top:10px; right:-70%; width:90px; height:3Opx;-moz-border-radius:23px 8px 23px 8px;-ms-border-radius:23px 8px 23px 8px;-o-border-radius:23px 8px 23px 8px;-webkit-border-radius:23px 8px 23px 8px; border-radius:23px 8px 23px 8px; color:#00F; font-weight:bold; letter-spacing:5px; background-color:#FFF; box-shadow:7px 3px 7px 1px #000;behavior:url(../pie/PIE.htc);}
+.submit:hover {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);-moz-opacity: 0.8;-khtml-opacity: 0.8;opacity: 0.8; cursor:pointer;}
+#name{ background-color:#FFF; font-size:18px; color:#000; text-shadow:1px 1px 3px #000; font-family:Georgia, "Times New Roman", Times, serif;}
+#email{ background-color:#FFF;font-size:18px; color:#000; text-shadow:1px 1px 3px #000; font-family:Georgia, "Times New Roman", Times, serif;}
+.ime {color:#000;; text-shadow:1px 2px 3px #000;font-family:"Times New Roman", Times, serif; letter-spacing:3px;font-size:18px;}
+#form { position:relative;right:-10%;width:640px; height:430px;border-right:thick double #fff;}
+input[type=reset] {visibility:hidden; height:0; padding:0;}
+.reset{ text-decoration:none; position:relative; font-size:18px; top:-30px; right:-60px;}
+	/*Contact FORM END*/

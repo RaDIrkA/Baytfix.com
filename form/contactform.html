@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+</head>
+      <link href="form.css" rel="stylesheet" type="text/css">
+      <link href='http://fonts.googleapis.com/css?family=Sunshiney' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="http://malsup.github.com/jquery.form.js"></script>
+
+ 
+
+
+<body>
+
+
+
+<div class="okvir">
+      <p class="us">Contact Us:</p><br>
+<FORM method="POST" action="action.php" name="form" onSubmit="return validate();" id="form"> 
+<label id="vprasanje" for="vprasanje"></label>
+    <p class="ime">Question:</p><br><select size="1" name="vprasanje">
+	  <option class="option" value="Ostalo">Other</option>
+      <option class="option" value="Izdelava spletnih strani">Web Design</option>
+    </select> <br>  
+    
+<p class="ime">
+      <label class="label">Name:</label>
+      <INPUT name="name" type="text" size=50 id="name" maxlength="120" autocomplete="off" required></p>
+<p class="ime"><br>
+      <label class="label">Email:</label>
+      <INPUT name="email" type="text" size=45 id="email" maxlength="120" autocomplete="off"  required></p>
+<p class="ime"><br>
+      <label class="label">Your message:</label><br><br> 
+      <textarea id="name" name="message" required cols=70 rows=9></textarea></p>
+<p>
+      <INPUT type="submit" id="submit" value="Send" class="submit" onClick="validate();"></p>
+</FORM>
+
+<script>
+        // wait for the DOM to be loaded 
+        $(document).ready(function() { 
+            // bind 'myForm' and provide a simple callback function 
+            $('form').ajaxForm(function() { 
+                alert("Message is sent successfully!"); 
+            }); 
+        }); 
+				function validate()
+{
+var x=document.forms["form"]["email"].value;
+var atpos=x.indexOf("@");
+var dotpos=x.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+  {
+  alert("Not a valid e-mail address");
+  return false;
+  }
+}
+</script>
+</div>
+
+
+</body>
+</html>
+
+      

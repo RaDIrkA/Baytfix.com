@@ -1,0 +1,80 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {	content: '';content: none;}
+table {	border-collapse: collapse;border-spacing: 0;}
+#welcome {right:-10%;top:1%;}
+#welcome p { font-size:66px;letter-spacing:12px; color:#FFF; font-weight:bold; font-family:"VAG HandWritten";}
+#welcome h1 {font-size:35px; letter-spacing:10px; color:#000; font-family:"DJGROSS";position:relative;right:-70px;}
+#welcome h3 {font-size:9px; font-family:Verdana, Geneva, sans-serif;  letter-spacing:17px; color:#000; right:-15%;top:50px; position:relative;}
+	/*new fonts*/
+@font-face {font-family:"belligerent";
+	src:url("../Font/Belligerent-Madness/belligerent-webfont.ttf");
+	src:url("../Font/Belligerent-Madness/belligerent-webfont.eot");}
+@font-face {font-family:"belligerent";
+	src:url(../Font/Belligerent-Madness/belligerent-webfont.svg);
+	src:url(../Font/Belligerent-Madness/belligerent-webfont.woff);}
+@font-face {font-family:"DJGROSS";
+	src:url(../Font/DJ-Gross-fontfacekit/DJGROSS-webfont.ttf);
+	src:url(../Font/DJ-Gross-fontfacekit/DJGROSS-webfont.eot);}	
+@font-face {font-family:"DJGROSS";
+	src:url(../Font/DJ-Gross-fontfacekit/DJGROSS-webfont.svg);
+	src:url(../Font/DJ-Gross-fontfacekit/DJGROSS-webfont.woff);}	
+@font-face {font-family:"SpecialElite";
+	src:url(../Font/special-elite-fontfacekit/SpecialElite-webfont.ttf);
+	src:url(../Font/special-elite-fontfacekit/SpecialElite-webfont.eot);}	
+@font-face {font-family:"SpecialElite";
+	src:url(../Font/special-elite-fontfacekit/SpecialElite-webfont.svg);
+	src:url(../Font/special-elite-fontfacekit/SpecialElite-webfont.woff);}	
+@font-face {font-family:"VAG HandWritten";
+	src:url(../Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.ttf);
+	src:url(../Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.eot);}	
+@font-face {font-family:"VAG HandWritten";
+	src:url(../Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.svg);
+	src:url(../Font/VAG-HandWritten-fontfacekit/VAG-HandWritten-webfont.woff);}	
+@font-face {font-family:"ArchitectsDaughter";
+	src:url(../Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.ttf);
+	src:url(../Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.eot);}
+@font-face {font-family:"ArchitectsDaughter";
+	src:url(../Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.svg);
+	src:url(../Font/architects-daughter-fontfacekit/ArchitectsDaughter-webfont.woff);}	
+		/*end fonts*/
+#nav2 li a{ right:-8%;top:80px; position:relative;  font-family:"belligerent"; text-decoration:none; }
+#nav2 li a:hover{ text-shadow:2px 1px 2px #00F;}
+#fellfree h1{font-family:"VAG HandWritten"; font-size:25px; letter-spacing:3px;top:17px; right:-7px; position:relative;}
+#fellfree h2{font-family:"VAG HandWritten"; font-size:20px; letter-spacing:5px; float:right; position:relative; top:44px;}
+#work h1 {font-size:30px; letter-spacing:6px;font-family:"ArchitectsDaughter"; position:absolute;z-index:1;top:150px;right:50%;}
+
+.work1 {position:relative;font-family:"ArchitectsDaughter"; right:-150px; top:250px;}
+
+.work1 a:hover {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);-moz-opacity: 0.6;-khtml-opacity: 0.6;opacity: 0.6;}

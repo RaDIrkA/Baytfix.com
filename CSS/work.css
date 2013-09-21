@@ -1,0 +1,33 @@
+#work2 { border-top:2px double #00F;;width:750px;height:80px; position:relative; margin:0 auto; top:3%;}
+#work2 h1{font-family:"VAG HandWritten"; font-size:40px; letter-spacing:4px; color:#00F;text-align:center;top:-1px; position:relative;
+text-shadow:3px 2px 4px #00F;}
+.ponudba{overflow:hidden;margin:0 auto;width:750px;height:500px;cursor:pointer;top:3%; position:relative;}
+.ponudba1{background:#09F;border-top:1px solid white;border-bottom:1px solid c5c5c5;}
+dt{font-size:20px;text-align:center;font-weight:bold;font-family:"SpecialElite";}
+dt:first-child{border-top:none}
+dt:nth-last-child(2){border-bottom:none}
+dd{font-family:"ArchitectsDaughter";font-size:13px; letter-spacing:2px; }
+.ponudbaphoto {width:100px;height:90px;top:-23px; position:relative; float:right;}
+.ponudbaphoto1 {width:130px;height:130px;top:-10px; position:relative; float:right;}
+.ponudbaphoto2 {width:60px;height:40px;position:relative; float:right;top:-10px;}
+.ponudbaphoto3 {width:100px;height:80px;position:relative; float:right;}
+.ponudbaphoto4 {width:90px;height:90px;position:relative; float:right; }
+.ponudbaphoto6 {width:35px;height:35px;position:relative; }
+.ponudbaphoto6:hover {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+-moz-opacity: 0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;}
+ <!--Konec ponudba in services-->
+ <!--Zacetek animacija index-->
+.content {width: 500px;}
+.scrollBg {width: 540px;height: 80px; position:relative;margin:0 auto;top:5%;-webkit-border-radius:55px;-moz-border-radius:55px;border-radius:55px;behavior:url(../pie/PIE.htc);}
+.scrollBg  img {display: block; height:20px; width:20px; position:absolute;}
+#scrollBg {width:540px; height:90px;-moz-border-radius:40px;-webkit-border-radius:40px;border-radius:40px;behavior:url(../pie/PIE.htc); }
+ <!--Konec animacija index-->
+
+
+
+
+
+
